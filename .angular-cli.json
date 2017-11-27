@@ -38,9 +38,7 @@
         "assets/vendor/chart.js/Chart.min.js",
         "assets/vendor/datatables/jquery.dataTables.js",
         "assets/vendor/datatables/dataTables.bootstrap4.js",         
-        "assets/vendor/sb-admin/sb-admin.min.js",
-        "assets/vendor/sb-admin/sb-admin-datatables.min.js",
-        "assets/vendor/sb-admin/sb-admin-charts.min.js"
+        "assets/vendor/sb-admin/sb-admin.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
