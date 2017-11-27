@@ -24,8 +24,7 @@
         "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
         "../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css",
         "../node_modules/simple-line-icons/css/simple-line-icons.css",        
-        "../node_modules/font-awesome/css/font-awesome.min.css",        
-        "assets/vendor/js/jquery-easing/jquery.easing.min.js"
+        "../node_modules/font-awesome/css/font-awesome.min.css"
       ],
       "scripts": [
         
@@ -33,10 +32,11 @@
         "../node_modules/tether/dist/js/tether.js",       
         "../node_modules/popper.js/dist/umd/popper.js",  
         "../node_modules/bootstrap/dist/js/bootstrap.min.js", 
-        "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-        "../node_modules/angular/angular.min.js",
-        "../node_modules/chart.js/dist/Chart.min.js",
-        "../node_modules/angular-chart.js/dist/angular-chart.min.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",        
+        "assets/vendor/js/jquery-easing/jquery.easing.min.js",        
+        "assets/vendor/js/sb-admin/sb-admin.min.js",
+        "assets/vendor/js/sb-admin/sb-admin-datatables.min.js",
+        "assets/vendor/js/sb-admin/sb-admin-charts.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
