@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', component: HomeComponent},
-  {path: '/ged', component: GedComponent}
+  {path: 'ged', component: GedComponent}
 ];
 
 @NgModule({
