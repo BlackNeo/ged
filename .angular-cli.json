@@ -34,7 +34,8 @@
         "../node_modules/popper.js/dist/umd/popper.js",  
         "../node_modules/bootstrap/dist/js/bootstrap.min.js", 
         "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-        "../node_modules/chart.js/Chart.min.js",
+        "../node_modules/angular/angular.min.js",
+        "../node_modules/chart.js/dist/Chart.min.js",
         "../node_modules/angular-chart.js/dist/angular-chart.min.js"
       ],
       "environmentSource": "environments/environment.ts",
