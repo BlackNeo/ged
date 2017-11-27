@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
-import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-ged',
@@ -9,19 +8,8 @@ import { UserService } from '../user.service';
 })
 export class GedComponent implements OnInit {
 
-  users: Array<User>;
-  selectedUser: User;
-  isLogin: boolean;
-  data: any;
-  type: string;
-  options: any;
-
-  constructor(private _userService: UserService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.isLogin = true;
-    this._userService.getUsers()
-      .subscribe(resUserData => this.users = resUserData);
-      console.log(this.users);
   }
 }
