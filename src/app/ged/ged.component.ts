@@ -15,6 +15,9 @@ export class GedComponent implements OnInit, AfterViewInit {
 
 
   ngOnInit() {
+  }
+
+  ngAfterViewInit() {
     $.getScript('../node_modules/jquery/dist/jquery.min.js', function(){});
     $.getScript('../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', function(){});
     $.getScript('assets/vendor/jquery-easing/jquery.easing.min.js', function(){});
@@ -24,8 +27,5 @@ export class GedComponent implements OnInit, AfterViewInit {
     $.getScript('assets/vendor/sb-admin/sb-admin.min.js', function(){});
     $.getScript('assets/vendor/sb-admin/sb-admin-datatables.min.js', function(){});
     $.getScript('assets/vendor/sb-admin/sb-admin-charts.min.js', function(){});
-  }
-
-  ngAfterViewInit() {
   }
 }
