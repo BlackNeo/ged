@@ -1,5 +1,6 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
+import { AfterViewInit } from '@angular/core/src/metadata/lifecycle_hooks';
 declare var $: any;
 
 @Component({
@@ -17,7 +18,12 @@ export class GedComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
+    $.getScript('assets/vendor/jquery-easing/jquery.easing.min.js', function(){});
+    $.getScript('assets/vendor/chart.js/Chart.min.js', function(){});
+    $.getScript('assets/vendor/datatables/jquery.dataTables.js', function(){});
+    $.getScript('assets/vendor/datatables/dataTables.bootstrap4.js', function(){});
+    $.getScript('assets/vendor/sb-admin/sb-admin.min.js', function(){});
     $.getScript('assets/vendor/sb-admin/sb-admin-datatables.min.js', function(){});
-    $.getScript('assets/vendor/sb-admin/sb-admin-datatables.min.js', function(){});
+    $.getScript('assets/vendor/sb-admin/sb-admin-charts.min.js', function(){});
   }
 }
