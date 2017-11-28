@@ -18,6 +18,8 @@ export class GedComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
+    $.getScript('../node_modules/jquery/dist/jquery.min.js', function(){});
+    $.getScript('../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', function(){});
     $.getScript('assets/vendor/jquery-easing/jquery.easing.min.js', function(){});
     $.getScript('assets/vendor/chart.js/Chart.min.js', function(){});
     $.getScript('assets/vendor/datatables/jquery.dataTables.js', function(){});
