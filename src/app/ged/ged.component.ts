@@ -20,12 +20,12 @@ export class GedComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     $.getScript('/assets/vendor/jquery/dist/jquery.min.js', function(){});
     $.getScript('/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js', function(){});
-    $.getScript('/assets/vendor/jquery-easing/jquery.easing.min.js', function(){});
-    $.getScript('/assets/vendor/chart.js/Chart.min.js', function(){});
-    $.getScript('/assets/vendor/datatables/jquery.dataTables.js', function(){});
-    $.getScript('/assets/vendor/datatables/dataTables.bootstrap4.js', function(){});
-    $.getScript('/assets/vendor/sb-admin/sb-admin.min.js', function(){});
     setTimeout(() => {
+      $.getScript('/assets/vendor/jquery-easing/jquery.easing.min.js', function(){});
+      $.getScript('/assets/vendor/chart.js/Chart.min.js', function(){});
+      $.getScript('/assets/vendor/datatables/jquery.dataTables.js', function(){});
+      $.getScript('/assets/vendor/datatables/dataTables.bootstrap4.js', function(){});
+      $.getScript('/assets/vendor/sb-admin/sb-admin.min.js', function(){});
       $.getScript('/assets/vendor/sb-admin/sb-admin-datatables.min.js', function(){});
       $.getScript('/assets/vendor/sb-admin/sb-admin-charts.min.js', function(){});
     }, 500);
