@@ -9,7 +9,10 @@ import { User } from '../user';
 export class GedComponent implements OnInit {
 
   constructor() {
+  }
 
+
+  ngOnInit() {
     document.getElementById('jquery-easing-min').remove();
     const jqueryEasing = document.createElement('script');
     jqueryEasing.setAttribute('id', 'jquery-easing-min');
@@ -51,9 +54,5 @@ export class GedComponent implements OnInit {
     sbAdminCharts.setAttribute('id', 'sb-admin-charts');
     sbAdminCharts.setAttribute('src', 'assets/vendor/sb-admin/sb-admin-datatables.min.js');
     document.body.appendChild(sbAdminCharts);
-  }
-
-
-  ngOnInit() {
   }
 }
