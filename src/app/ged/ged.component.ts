@@ -25,7 +25,7 @@ export class GedComponent implements OnInit, AfterViewInit {
     $.getScript('/assets/vendor/datatables/jquery.dataTables.js', function(){});
     $.getScript('/assets/vendor/datatables/dataTables.bootstrap4.js', function(){});
     $.getScript('/assets/vendor/sb-admin/sb-admin.min.js', function(){});
-    $.timeout(function() {
+    setTimeout(() => {
       $.getScript('/assets/vendor/sb-admin/sb-admin-datatables.min.js', function(){});
       $.getScript('/assets/vendor/sb-admin/sb-admin-charts.min.js', function(){});
     }, 500);
